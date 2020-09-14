@@ -1,0 +1,305 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+}
+
+a {
+  color: green;
+  font-size: 0.9rem;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.3rem;
+}
+
+.navbar {
+  position: relative;
+  margin: 4rem 4rem 0;
+}
+
+.navbar-logo {
+  max-width: 12%;
+}
+
+.navbar-items {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.navbar-items-element {
+  display: inline-block;
+  margin: 1rem 0rem 1rem 2rem;
+}
+
+.body-one {
+  margin: 4rem 4rem 14rem;
+}
+
+.body-one-text {
+  display: inline-block;
+  max-width: 45%;
+  margin-right: 5%;
+  position: relative;
+  bottom: 3rem;
+}
+
+.body-one-text-p {
+  font-size: 1.05rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.8rem;
+  width: 17rem;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+button {
+  padding: 1rem;
+  width: 11rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  border-style: solid;
+  border-width: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.body-one-img {
+  max-width: 49.6%;
+  position: relative;
+  top: 5rem;
+}
+
+.mobile-bg {
+  display: none;
+}
+
+.desktop-bg {
+  width: 100%;
+}
+
+.body-two {
+  background-color: hsl(240, 75%, 98%);
+  position: relative;
+  bottom: 0.4rem;
+  padding: 4rem 0 6rem;
+}
+
+.body-two-text {
+  margin-left: 4rem;
+  display: inline-block;
+  max-width: 45%;
+  margin-right: 3%;
+}
+
+.margin-top {
+  margin-top: 0;
+}
+
+.max-width {
+  max-width: 80%;
+  font-size: 0.9rem;
+}
+
+.body-two-img {
+  max-width: 40%;
+  vertical-align: top;
+  position: relative;
+  top: 1rem;
+}
+
+.arrow {
+  position: relative;
+  top: 0.2rem;
+}
+
+.avatar-div {
+  background-color: white;
+  height: 10rem;
+  width: 16rem;
+  padding: 1.5rem 2rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2), inset 0 0 0 0 rgba(0, 0, 0, 0.19);
+}
+
+.avatar-quote {
+  width: 6%;
+}
+
+.avatar-text {
+  font-size: 0.75rem;
+  line-height: 1.7;
+}
+
+.avatar-img {
+  max-width: 12%;
+  border-radius: 50%;
+}
+
+.avatar-name-details {
+  display: inline-block;
+  margin-left: 0.2rem;
+  position: relative;
+  bottom: 0.1rem;
+}
+
+.avatar-name {
+  margin: 0.25rem 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.avatar-position {
+  margin: 0.25rem 0;
+  font-size: 0.5rem;
+}
+
+.desaturated {
+  background-color: hsl(238, 22%, 44%);
+  color: white;
+  padding: 4rem;
+}
+
+.desaturated-left {
+  display: inline-block;
+  max-width: 50%;
+  margin-right: 10%;
+}
+
+.desaturated-left-h2 {
+  font-size: 2rem;
+}
+
+.desaturated-left-p {
+  max-width: 84%;
+  font-size: 1.03rem;
+  line-height: 1.5;
+}
+
+.desaturated-right {
+  display: inline-block;
+  position: relative;
+  bottom: 1rem;
+}
+
+.iinput {
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  width: 25rem;
+  margin-bottom: 1rem;
+  border-style: none;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  padding: 1rem 1.5rem;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.2), inset 0 0 0 0 rgba(0, 0, 0, 0.19)
+}
+
+.bbutton {
+  font-weight: 600;
+  width: 12rem;
+  box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 0.2), inset 0 0 0 0 rgba(0, 0, 0, 0.19)
+}
+
+.very-dark-blue {
+  background-color: hsl(243, 87%, 12%);
+  height: 16rem;
+  padding: 6rem 4rem 3rem;
+}
+
+.content {
+  position: relative;
+}
+
+.a {
+  width: 30%;
+  color: white;
+  display: inline-block;
+}
+
+.content-logo {
+  filter: brightness(0) saturate(100%) invert(94%) sepia(0%) saturate(3347%) hue-rotate(194deg) brightness(128%) contrast(100%);
+  width: 42%;
+  margin-bottom: 1rem;
+}
+
+.lo {
+  display: inline-block;
+}
+
+.content-img {
+  margin-right: 1rem;
+}
+
+.content-text {
+  font-size: 1rem;
+  margin: 0.7rem;
+}
+
+.b, .c, .d {
+  display: inline-block;
+  color: white;
+  margin-left: 4rem;
+  position: relative;
+  vertical-align: top;
+  top: 4rem;
+  margin-right: 7rem;
+}
+
+.sm {
+  display: inline-block;
+  margin: 0 0.5rem;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sm:hover {
+  background-color: white;
+}
+
+.fa {
+  padding: 0.4rem;
+}
+
+.fa:hover {
+  color: hsl(243, 87%, 12%);
+}
+
+.fa-facebook-f {
+  padding-left: 0.65rem;
+  padding-right: 0.65rem;
+  position: relative;
+  left: -0.05rem;
+  top: 0.1rem;
+}
+
+.fa-twitter {
+  padding-left: 0.45rem;
+  padding-right: 0.45rem;
+  position: relative;
+  top: 0.1rem;
+}
+
+.fa-instagram {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  position: relative;
+  top: 0.1rem;
+}
+
+.icons {
+  margin-right: 0;
+  top: 5rem;
+}
